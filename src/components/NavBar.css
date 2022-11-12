@@ -1,0 +1,23 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 60px;
+}
+
+.navbar-list {
+  width: 45%;
+}
+
+.navbar-list ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  color: #434343;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
