@@ -58,6 +58,7 @@ function HomePage() {
           </div>
         </div>
       </div>
+      <div className="logos"></div>
     </>
   );
 }
