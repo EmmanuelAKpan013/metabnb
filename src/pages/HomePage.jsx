@@ -1,5 +1,6 @@
 import "./HomePage.css";
 import NavBar from "../components/NavBar";
+import Card from "../components/Card";
 import heroImgOne from "../images/hero-section/image 1.png";
 import heroImgTwo from "../images/hero-section/image 2.png";
 import heroImgThree from "../images/hero-section/image 3.png";
@@ -70,6 +71,12 @@ function HomePage() {
         </div>
         <div>
           <img src={openseaLogo} alt="" />
+        </div>
+      </div>
+      <div className="inspiration">
+        <p>Inspiration for your next adventure</p>
+        <div className="nft-container">
+          <Card />
         </div>
       </div>
     </>

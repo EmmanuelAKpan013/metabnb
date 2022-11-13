@@ -96,3 +96,18 @@
   padding: 10px 0;
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
 }
+
+.inspiration {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Red Rose";
+  font-style: normal;
+  color: #000000;
+  border: 1px solid black;
+}
+
+.inspiration > p {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+}
