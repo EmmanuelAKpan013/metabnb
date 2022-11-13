@@ -4,6 +4,9 @@ import heroImgOne from "../images/hero-section/image 1.png";
 import heroImgTwo from "../images/hero-section/image 2.png";
 import heroImgThree from "../images/hero-section/image 3.png";
 import heroImgFour from "../images/hero-section/image 4.png";
+import openseaLogo from "../images/logos-opensea/opensea.svg";
+import metamaskLogo from "../images/logos-opensea/metamask.svg";
+import mbtokenLogo from "../images/logos-opensea/mbtoken.svg";
 
 function HomePage() {
   return (
@@ -58,7 +61,17 @@ function HomePage() {
           </div>
         </div>
       </div>
-      <div className="logos"></div>
+      <div className="logos">
+        <div>
+          <img src={mbtokenLogo} alt="" />
+        </div>
+        <div>
+          <img src={metamaskLogo} alt="" />
+        </div>
+        <div>
+          <img src={openseaLogo} alt="" />
+        </div>
+      </div>
     </>
   );
 }

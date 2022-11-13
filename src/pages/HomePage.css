@@ -6,7 +6,6 @@
   display: flex;
   justify-content: space-between;
   margin: 80px 100px 50px 100px;
-  border: 1px solid black;
 }
 
 .hero-rent-text {
@@ -17,14 +16,12 @@
   line-height: 35px;
   color: #434343;
   width: 50%;
-  border: 1px solid red;
 }
 
 .homepage-hero-rent {
   font-size: 56px;
   line-height: 140%;
   color: #434343;
-  border: 1px solid red;
 }
 
 .purple-text {
@@ -75,17 +72,14 @@
 .homepage-hero-images {
   display: flex;
   justify-content: right;
-  /* align-items: center; */
   gap: 0.5rem;
   width: 45%;
-  border: 1px solid black;
 }
 
 .hero-img-one {
   display: flex;
   flex-direction: column;
   row-gap: 0.5rem;
-  border: 1px solid blue;
   margin-top: 120px;
 }
 
@@ -93,10 +87,12 @@
   display: flex;
   flex-direction: column;
   row-gap: 0.5rem;
-  border: 1px solid blue;
 }
 
 .logos {
-  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0;
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
 }
