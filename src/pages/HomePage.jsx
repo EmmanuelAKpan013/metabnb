@@ -1,10 +1,14 @@
 import "./HomePage.css";
 import NavBar from "../components/NavBar";
+import heroImgOne from "../images/hero-section/image 1.png";
+import heroImgTwo from "../images/hero-section/image 2.png";
+import heroImgThree from "../images/hero-section/image 3.png";
+import heroImgFour from "../images/hero-section/image 4.png";
 
 function HomePage() {
   return (
     <>
-      <div>
+      <div className="homepage-nav-container">
         <NavBar />
       </div>
       <div className="homepage-hero">
@@ -35,11 +39,23 @@ function HomePage() {
           </div>
         </div>
         <div className="homepage-hero-images">
-          <p>
-            we provide you access to luxury and affordable houses in the
-            metaverse, get a chance to turn your imagination to reality at your
-            comfort zone
-          </p>
+          <div className="hero-img-one">
+            <div>
+              <img src={heroImgOne} alt="" />
+            </div>
+            <div>
+              <img src={heroImgTwo} alt="" />
+            </div>
+          </div>
+
+          <div className="hero-img-two">
+            <div>
+              <img src={heroImgThree} alt="" />
+            </div>
+            <div>
+              <img src={heroImgFour} alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </>
