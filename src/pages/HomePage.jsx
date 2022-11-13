@@ -8,6 +8,7 @@ import heroImgFour from "../images/hero-section/image 4.png";
 import openseaLogo from "../images/logos-opensea/opensea.svg";
 import metamaskLogo from "../images/logos-opensea/metamask.svg";
 import mbtokenLogo from "../images/logos-opensea/mbtoken.svg";
+import threepics from "../images/threepics.png";
 
 function HomePage() {
   return (
@@ -77,6 +78,22 @@ function HomePage() {
         <p>Inspiration for your next adventure</p>
         <div className="nft-container">
           <Card />
+        </div>
+      </div>
+      <div className="nft-learn-more">
+        <div className="metabnb-learn">
+          <p className="nft-text">Metabnb NFTs</p>
+          <p className="small">
+            Discover our NFT gift cards collection. Loyal customers gets amazing
+            gift cards which are traded as NFTs. These NFTs gives our cutomer
+            access to loads of our exclusive services.
+          </p>
+          <br />
+          <br />
+          <button className="btn-learn">Learn more</button>
+        </div>
+        <div className="metabnb-learn-img">
+          <img src={threepics} alt="" />
         </div>
       </div>
     </>
