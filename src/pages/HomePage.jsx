@@ -1,6 +1,7 @@
 import "./HomePage.css";
 import NavBar from "../components/NavBar";
 import Card from "../components/Card";
+import Footer from "../components/Footer";
 import heroImgOne from "../images/hero-section/image 1.png";
 import heroImgTwo from "../images/hero-section/image 2.png";
 import heroImgThree from "../images/hero-section/image 3.png";
@@ -95,6 +96,9 @@ function HomePage() {
         <div className="metabnb-learn-img">
           <img src={threepics} alt="" />
         </div>
+      </div>
+      <div className="homepage-footer-container">
+        <Footer />
       </div>
     </>
   );
