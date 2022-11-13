@@ -1,5 +1,6 @@
 .homepage-hero {
   display: flex;
+  justify-content: space-between;
   margin: 80px 60px 0 60px;
   border: 1px solid black;
 }
@@ -11,15 +12,63 @@
   font-size: 24px;
   line-height: 35px;
   color: #434343;
+  width: 45%;
+  /* border: 1px solid red; */
 }
 
 .homepage-hero-rent {
   font-size: 56px;
   line-height: 140%;
   color: #434343;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .purple-text {
   color: #a13c79;
+}
+
+.hero-search-section {
+  margin-top: 50px;
+}
+
+.hero-search-section form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.search-location-field {
+  background: rgba(247, 247, 247, 0.1);
+  border: 1px solid #a3a3a3;
+  border-radius: 8px 0px 0px 8px;
+  height: 90.9%;
+  width: 70%;
+  padding-left: 20px;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #b8b8b8;
+}
+
+.searchbtn {
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.46%);
+  border-radius: 0px 8px 8px 0px;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  height: 100%;
+  width: 30%;
+  border: none;
+}
+
+.homepage-hero-images {
+  width: 45%;
+  border: 1px solid black;
 }
