@@ -4,9 +4,9 @@ import data from "../data/data.json";
 function Card() {
   return (
     <>
-      {data.map((item) => {
+      {data.map((item, index) => {
         return (
-          <div className="card-container">
+          <div className="card-container" key={index}>
             <div className="card-image">
               <img src={item.image} alt="nft--img" />
             </div>

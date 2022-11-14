@@ -1,8 +1,7 @@
+import { Link } from "react-router-dom";
 import "./NavBar.css";
 import metaLogo from "../images/metabnbLogo.png";
 import ConnectWalletBtn from "./ConnectWalletBtn";
-
-import React from "react";
 
 function NavBar() {
   return (
@@ -12,10 +11,18 @@ function NavBar() {
       </div>
       <div className="navbar-list">
         <ul>
-          <li>Home</li>
-          <li>Place to stay</li>
-          <li>NFTs</li>
-          <li>Community</li>
+          <Link className="nav-link" to="/">
+            <li>Home</li>
+          </Link>
+          <Link className="nav-link" to="/placetostay">
+            <li>Place to stay</li>
+          </Link>
+          <Link className="nav-link" to="/">
+            <li>NFTs</li>
+          </Link>
+          <Link className="nav-link" to="/">
+            <li>Community</li>
+          </Link>
         </ul>
       </div>
       <div className="connect-to-wallet">

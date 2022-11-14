@@ -1,3 +1,9 @@
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  background: gray;
+}
+
 .homepage-nav-container {
   margin: 30px 100px;
 }
