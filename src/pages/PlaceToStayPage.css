@@ -1,0 +1,41 @@
+.place-nav-container {
+  margin: 30px 100px;
+}
+
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 100px 0 100px;
+}
+
+.listings {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #434343;
+  width: 100%;
+}
+
+.short-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.short-list li {
+  list-style: none;
+}
+
+.list-location {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1rem;
+  padding: 0 20px;
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  border: 1px solid #b4b4b4;
+  height: 50px;
+  border-radius: 8px;
+}
