@@ -44,7 +44,7 @@ function HomePage({ homeNftData }) {
             </form>
           </div>
         </div>
-        <div className="homepage-hero-images">
+        {/* <div className="homepage-hero-images">
           <div className="hero-img-one">
             <div>
               <img src={heroImgOne} alt="" />
@@ -62,9 +62,9 @@ function HomePage({ homeNftData }) {
               <img src={heroImgFour} alt="" />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
-      <div className="logos">
+      {/* <div className="logos">
         <div>
           <img src={mbtokenLogo} alt="" />
         </div>
@@ -74,14 +74,14 @@ function HomePage({ homeNftData }) {
         <div>
           <img src={openseaLogo} alt="" />
         </div>
-      </div>
-      <div className="inspiration">
+      </div> */}
+      {/* <div className="inspiration">
         <p>Inspiration for your next adventure</p>
         <div className="nft-container">
           <Card homeNftData={homeNftData} />
         </div>
-      </div>
-      <div className="nft-learn-more">
+      </div> */}
+      {/* <div className="nft-learn-more">
         <div className="metabnb-learn">
           <p className="nft-text">Metabnb NFTs</p>
           <p className="small">
@@ -96,10 +96,10 @@ function HomePage({ homeNftData }) {
         <div className="metabnb-learn-img">
           <img src={threepics} alt="" />
         </div>
-      </div>
-      <div className="homepage-footer-container">
+      </div> */}
+      {/* <div className="homepage-footer-container">
         <Footer />
-      </div>
+      </div> */}
     </>
   );
 }

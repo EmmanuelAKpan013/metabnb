@@ -168,5 +168,15 @@
   .homepage-hero {
     display: flex;
     flex-direction: column;
+    margin: 80px 100px 50px 100px;
+  }
+
+  .hero-rent-text {
+    width: 100%;
+  }
+
+  .hero-search-section {
+    margin-top: 50px;
+    /* width: 100%; */
   }
 }
