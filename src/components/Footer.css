@@ -78,4 +78,13 @@
     font-family: "Red Rose";
     font-style: normal;
   }
+
+  .footer-list {
+    font-family: "Red Rose";
+    font-style: normal;
+    line-height: 35px;
+    color: #f1f3f9;
+    font-size: 14px;
+    margin: 10px 0;
+  }
 }
