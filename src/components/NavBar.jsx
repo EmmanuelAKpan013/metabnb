@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "./NavBar.css";
 import metaLogo from "../images/metabnbLogo.png";
 import ConnectWalletBtn from "./ConnectWalletBtn";
+import hamburgerMenuIcon from "../images/hamburger-menu.png";
 
 function NavBar() {
   return (
@@ -27,6 +28,9 @@ function NavBar() {
       </div>
       <div className="connect-to-wallet">
         <ConnectWalletBtn />
+      </div>
+      <div className="hamburger-container">
+        <img src={hamburgerMenuIcon} alt="" className="ham-icon" />
       </div>
     </div>
   );

@@ -28,6 +28,15 @@
   color: #434343;
 }
 
+.hamburger-container {
+  display: none;
+}
+
+.ham-icon {
+  height: 60px;
+  width: 60px;
+}
+
 @media screen and (max-width = 480px) {
   .navbar-list {
     display: none;
