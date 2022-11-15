@@ -165,7 +165,10 @@
 }
 
 @media screen and (max-width: 480px) {
-  .homepage-hero {
+  .homepage-nav-container {
+    margin: 10px 10px;
+  }
+  /* .homepage-hero {
     display: flex;
     flex-direction: column;
     margin: 80px 100px 50px 100px;
@@ -177,6 +180,5 @@
 
   .hero-search-section {
     margin-top: 50px;
-    /* width: 100%; */
-  }
+  } */
 }

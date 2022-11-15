@@ -9,3 +9,13 @@
   font-style: normal;
   font-weight: 400;
 }
+
+@media screen and (max-width: 480px) {
+  .connect-wallet {
+    height: 42px;
+    padding: 10px;
+    font-size: 16px;
+    width: 150px;
+    text-align: center;
+  }
+}
