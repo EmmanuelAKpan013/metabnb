@@ -234,4 +234,27 @@
   .logos > div > img {
     width: 100%;
   }
+
+  .inspiration {
+    text-align: center;
+    margin: 20px 10px;
+    font-family: "Red Rose";
+    font-style: normal;
+    color: #000000;
+  }
+
+  .inspiration > p {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+  }
+
+  .nft-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    row-gap: 2rem;
+    column-gap: 2rem;
+  }
 }

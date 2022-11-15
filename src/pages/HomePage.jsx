@@ -75,12 +75,12 @@ function HomePage({ homeNftData }) {
           <img src={openseaLogo} alt="" />
         </div>
       </div>
-      {/* <div className="inspiration">
+      <div className="inspiration">
         <p>Inspiration for your next adventure</p>
         <div className="nft-container">
           <Card homeNftData={homeNftData} />
         </div>
-      </div> */}
+      </div>
       {/* <div className="nft-learn-more">
         <div className="metabnb-learn">
           <p className="nft-text">Metabnb NFTs</p>
