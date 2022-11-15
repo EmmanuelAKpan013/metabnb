@@ -37,8 +37,12 @@
   width: 60px;
 }
 
-@media screen and (max-width = 480px) {
+@media screen and (max-width: 480px) {
   .navbar-list {
     display: none;
+  }
+
+  .hamburger-container {
+    display: block;
   }
 }
