@@ -64,7 +64,7 @@ function HomePage({ homeNftData }) {
           </div>
         </div>
       </div>
-      {/* <div className="logos">
+      <div className="logos">
         <div>
           <img src={mbtokenLogo} alt="" />
         </div>
@@ -74,7 +74,7 @@ function HomePage({ homeNftData }) {
         <div>
           <img src={openseaLogo} alt="" />
         </div>
-      </div> */}
+      </div>
       {/* <div className="inspiration">
         <p>Inspiration for your next adventure</p>
         <div className="nft-container">
