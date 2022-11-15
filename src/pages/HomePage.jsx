@@ -44,25 +44,25 @@ function HomePage({ homeNftData }) {
             </form>
           </div>
         </div>
-        {/* <div className="homepage-hero-images">
+        <div className="homepage-hero-images">
           <div className="hero-img-one">
             <div>
-              <img src={heroImgOne} alt="" />
+              <img src={heroImgOne} alt="" className="heroimages" />
             </div>
             <div>
-              <img src={heroImgTwo} alt="" />
+              <img src={heroImgTwo} alt="" className="heroimages" />
             </div>
           </div>
 
           <div className="hero-img-two">
             <div>
-              <img src={heroImgThree} alt="" />
+              <img src={heroImgThree} alt="" className="heroimages" />
             </div>
             <div>
-              <img src={heroImgFour} alt="" />
+              <img src={heroImgFour} alt="" className="heroimages" />
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
       {/* <div className="logos">
         <div>

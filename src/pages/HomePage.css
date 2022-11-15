@@ -172,6 +172,7 @@
   .homepage-hero {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     margin: 30px 10px 30px 10px;
   }
 
@@ -184,5 +185,40 @@
   .homepage-hero-rent {
     font-size: 35px;
     margin-bottom: 10px;
+  }
+
+  .hero-search-section {
+    margin: 50px 10px 0 10px;
+  }
+
+  .homepage-hero-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    margin: 40px auto;
+    padding: auto;
+    /* border: 1px solid black; */
+  }
+
+  .hero-img-one {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    margin-top: 0px;
+    padding-top: 70px;
+    /* border: 1px solid red; */
+  }
+
+  .hero-img-two {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    /* border: 1px solid red; */
+  }
+
+  .heroimages {
+    width: 100%;
   }
 }
