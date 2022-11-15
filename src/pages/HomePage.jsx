@@ -81,7 +81,7 @@ function HomePage({ homeNftData }) {
           <Card homeNftData={homeNftData} />
         </div>
       </div>
-      {/* <div className="nft-learn-more">
+      <div className="nft-learn-more">
         <div className="metabnb-learn">
           <p className="nft-text">Metabnb NFTs</p>
           <p className="small">
@@ -96,7 +96,7 @@ function HomePage({ homeNftData }) {
         <div className="metabnb-learn-img">
           <img src={threepics} alt="" />
         </div>
-      </div> */}
+      </div>
       {/* <div className="homepage-footer-container">
         <Footer />
       </div> */}
