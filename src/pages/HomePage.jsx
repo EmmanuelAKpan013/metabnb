@@ -18,7 +18,7 @@ function HomePage({ homeNftData }) {
         <NavBar />
       </div>
       <div className="homepage-hero">
-        {/* <div className="hero-rent-text">
+        <div className="hero-rent-text">
           <p className="homepage-hero-rent">
             Rent a <span className="purple-text">Place</span> away from
             <span className="purple-text"> Home</span> in the
@@ -43,7 +43,7 @@ function HomePage({ homeNftData }) {
               </button>
             </form>
           </div>
-        </div> */}
+        </div>
         {/* <div className="homepage-hero-images">
           <div className="hero-img-one">
             <div>
