@@ -97,9 +97,9 @@ function HomePage({ homeNftData }) {
           <img src={threepics} alt="" />
         </div>
       </div>
-      {/* <div className="homepage-footer-container">
+      <div className="homepage-footer-container">
         <Footer />
-      </div> */}
+      </div>
     </>
   );
 }

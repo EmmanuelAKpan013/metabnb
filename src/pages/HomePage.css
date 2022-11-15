@@ -301,4 +301,9 @@
   .metabnb-learn-img > img {
     width: 100%;
   }
+
+  .homepage-footer-container {
+    padding: 0 40px;
+    background: #1d1d1e;
+  }
 }

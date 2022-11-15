@@ -61,6 +61,9 @@ function Footer() {
           <li>Contact us</li>
         </ul>
       </div>
+      <div className="footer-copyright-mobile">
+        <img src={copyright} alt="" /> <p>2022 Metabnb</p>
+      </div>
     </div>
   );
 }

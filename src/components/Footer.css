@@ -41,3 +41,41 @@
   font-size: 18px;
   font-weight: 700;
 }
+
+.footer-copyright-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 45px 0;
+    background: #1d1d1e;
+  }
+
+  .footer-black-logo {
+    margin-bottom: 40px;
+  }
+
+  .footer-social-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+
+  .footer-copyright {
+    display: none;
+  }
+
+  .footer-copyright-mobile {
+    display: flex;
+    column-gap: 1rem;
+    margin-top: 30px;
+    color: #ffffff;
+    font-family: "Red Rose";
+    font-style: normal;
+  }
+}
