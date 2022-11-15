@@ -11,7 +11,7 @@ import metamaskLogo from "../images/logos-opensea/metamask.svg";
 import mbtokenLogo from "../images/logos-opensea/mbtoken.svg";
 import threepics from "../images/threepics.png";
 
-function HomePage() {
+function HomePage({ homeNftData }) {
   return (
     <>
       <div className="homepage-nav-container">
@@ -78,7 +78,7 @@ function HomePage() {
       <div className="inspiration">
         <p>Inspiration for your next adventure</p>
         <div className="nft-container">
-          <Card />
+          <Card homeNftData={homeNftData} />
         </div>
       </div>
       <div className="nft-learn-more">

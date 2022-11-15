@@ -1,8 +1,9 @@
 import "./PlaceToStayPage.css";
 import NavBar from "../components/NavBar";
 import filterIcon from "../images/placetostay/filterIcon.svg";
+import Card from "../components/Card";
 
-function PlaceToStayPage() {
+function PlaceToStayPage({ placeNftData }) {
   return (
     <>
       <div className="place-nav-container">
@@ -28,6 +29,10 @@ function PlaceToStayPage() {
             </li>
           </ul>
         </div>
+      </div>
+
+      <div className="place-nft-container">
+        <Card placeNftData={placeNftData} />
       </div>
     </>
   );
