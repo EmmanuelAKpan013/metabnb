@@ -29,12 +29,12 @@ function NavBar() {
           </Link>
         </ul>
       </div>
-      {/* <div className="connect-to-wallet">
+      <div className="connect-to-wallet">
         <ConnectWalletBtn />
-      </div> */}
-      {/* <div className="hamburger-container">
+      </div>
+      <div className="hamburger-container">
         <img src={hamburgerMenuIcon} alt="" className="ham-icon" />
-      </div> */}
+      </div>
     </div>
   );
 }
