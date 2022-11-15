@@ -62,4 +62,8 @@
   .hamburger-container {
     display: block;
   }
+
+  .hamburger-container > img {
+    width: 100%;
+  }
 }
