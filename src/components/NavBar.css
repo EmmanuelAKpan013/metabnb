@@ -45,6 +45,14 @@
     /* margin: 0 60px; */
   }
 
+  .navbar-logo-container {
+    border: 1px solid red;
+  }
+
+  .navbar-logo-container > img {
+    width: 100%;
+  }
+
   .navbar-list {
     display: none;
   }
