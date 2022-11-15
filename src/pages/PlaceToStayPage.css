@@ -45,7 +45,9 @@
 }
 
 .place-nft-container {
-  margin: 70px 100px 50px 100px;
+  /* margin: 70px 100px 50px 100px; */
+  margin: 70px auto 50px auto;
+
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   place-items: center;
