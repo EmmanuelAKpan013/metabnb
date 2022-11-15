@@ -37,6 +37,14 @@
   width: 60px;
 }
 
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .navbar-list ul {
+    font-size: 16px;
+  }
+}
+
+/* Mobile Screen responsiveness */
+
 @media screen and (max-width: 480px) {
   .navbar-container {
     display: flex;

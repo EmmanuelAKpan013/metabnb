@@ -126,7 +126,6 @@
   align-items: center;
   color: #fff;
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
-  border: 1px solid #000000;
   font-family: "Red Rose";
   font-style: normal;
   padding: 0 100px;
@@ -265,7 +264,6 @@
     align-items: center;
     color: #fff;
     background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
-    border: 1px solid #000000;
     font-family: "Red Rose";
     font-style: normal;
     padding: 20px 50px;
@@ -307,3 +305,185 @@
     background: #1d1d1e;
   }
 }
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .homepage-nav-container {
+    margin: 30px 10px;
+  }
+
+  .homepage-hero {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 25px;
+  }
+
+  .hero-rent-text {
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #434343;
+    width: 45%;
+  }
+
+  .homepage-hero-rent {
+    font-size: 28px;
+    line-height: 140%;
+    color: #434343;
+    margin-bottom: 15px;
+  }
+
+  .purple-text {
+    color: #a13c79;
+  }
+
+  .hero-search-section {
+    margin-top: 50px;
+  }
+
+  .hero-search-section form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+
+  .search-location-field {
+    background: rgba(247, 247, 247, 0.1);
+    border: 1px solid #a3a3a3;
+    border-radius: 8px 0px 0px 8px;
+    height: 90.9%;
+    width: 70%;
+    padding-left: 20px;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #b8b8b8;
+  }
+
+  .searchbtn {
+    background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.46%);
+    border-radius: 0px 8px 8px 0px;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+    height: 100%;
+    width: 30%;
+    border: none;
+  }
+
+  .homepage-hero-images {
+    display: flex;
+    justify-content: right;
+    gap: 0.5rem;
+    width: 45%;
+  }
+
+  .hero-img-one {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    margin-top: 120px;
+  }
+
+  .hero-img-two {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+  }
+
+  .heroimages {
+    width: 100%;
+  }
+
+  .logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 10px 30px;
+    background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  }
+
+  .logos > div > img {
+    width: 100%;
+  }
+
+  .inspiration {
+    text-align: center;
+    margin: 20px 10px;
+    font-family: "Red Rose";
+    font-style: normal;
+    color: #000000;
+  }
+
+  .inspiration > p {
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 60px;
+  }
+
+  .nft-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    row-gap: 4rem;
+    column-gap: 2rem;
+  }
+
+  .nft-learn-more {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+    font-family: "Red Rose";
+    font-style: normal;
+    padding: 20px 30px;
+  }
+
+  .metabnb-learn {
+    width: 50%;
+  }
+
+  .nft-text {
+    font-weight: 700;
+    font-size: 48px;
+  }
+
+  .small {
+    margin-top: 20px;
+    line-height: 35px;
+  }
+
+  .btn-learn {
+    width: 120px;
+    height: 40px;
+    color: #a02279;
+    border: none;
+    background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+    border-radius: 8px;
+  }
+
+  .metabnb-learn-img {
+    margin: 60px 0;
+    width: 40%;
+  }
+
+  .metabnb-learn-img > img {
+    width: 100%;
+  }
+
+  .homepage-footer-container {
+    padding: 0 30px;
+    background: #1d1d1e;
+  }
+} ;
