@@ -1,5 +1,6 @@
 import "./PlaceToStayPage.css";
 import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 import filterIcon from "../images/placetostay/filterIcon.svg";
 import Card from "../components/Card";
 
@@ -33,6 +34,9 @@ function PlaceToStayPage({ placeNftData }) {
 
       <div className="place-nft-container">
         <Card placeNftData={placeNftData} />
+      </div>
+      <div className="homepage-footer-container">
+        <Footer />
       </div>
     </>
   );

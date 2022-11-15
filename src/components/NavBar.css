@@ -27,3 +27,9 @@
   text-decoration: none;
   color: #434343;
 }
+
+@media screen and (max-width = 480px) {
+  .navbar-list {
+    display: none;
+  }
+}
