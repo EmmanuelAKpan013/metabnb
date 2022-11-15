@@ -101,15 +101,12 @@
     margin-top: 40px;
     padding: 10px 20px;
     border-radius: 8px;
-    border: 1px solid red;
     background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
   }
 
   .places-list ul {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
     gap: 1rem;
     width: 100px;
     list-style: none;
