@@ -2,18 +2,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* margin: 0 60px; */
 }
 
 .navbar-logo-container {
-  border: 1px solid black;
-  width: 20%;
+  /* border: 1px solid black; */
+  /* width: 20%; */
 }
 
 .navbar-list {
   width: 45%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .navbar-list ul {
@@ -36,7 +36,7 @@
 }
 
 .connect-to-wallet {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .hamburger-container {
@@ -48,13 +48,12 @@
   width: 60px;
 }
 
-@media screen and (max-width: 481px) and (min-width: 768px) {
+/* @media screen and (max-width: 481px) and (min-width: 768px) {
   .navbar-container {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    /* margin: 0 60px; */
   }
 
   .navbar-list ul {
@@ -70,11 +69,11 @@
     cursor: pointer;
     font-size: 16px;
   }
-}
+} */
 
 /* Mobile Screen responsiveness */
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -97,4 +96,4 @@
   .hamburger-container > img {
     width: 100%;
   }
-}
+} */
