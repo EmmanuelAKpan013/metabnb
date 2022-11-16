@@ -13,7 +13,7 @@ function NavBar() {
       <div className="navbar-logo-container">
         <img src={metaLogo} alt="" />
       </div>
-      <div className="navbar-list">
+      {/* <div className="navbar-list">
         <ul>
           <Link className="nav-link" to="/">
             <li>Home</li>
@@ -28,10 +28,11 @@ function NavBar() {
             <li>Community</li>
           </Link>
         </ul>
+      </div> */}
+      <div>
+        <button className="connect-wallet">Connect wallet</button>
       </div>
-      <div className="connect-to-wallet">
-        <ConnectWalletBtn />
-      </div>
+      {/* <ConnectWalletBtn /> */}
       <div className="hamburger-container">
         <img src={hamburgerMenuIcon} alt="" className="ham-icon" />
       </div>
