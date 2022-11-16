@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./NavBar.css";
 import metaLogo from "../images/metabnbLogo.png";
-import ConnectWalletBtn from "./ConnectWalletBtn";
+// import ConnectWalletBtn from "./ConnectWalletBtn";
 import hamburgerMenuIcon from "../images/hamburger-menu.png";
 
 function NavBar() {
